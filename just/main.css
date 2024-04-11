@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "GT Eesti Pro Display",sans-serif;
+    height: 100%;
+    color: #72727E;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+}
+.header {
+    margin-top: 25px;
+}
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .headerContent nav {
+    display: flex;
+    align-items: center;
+    column-gap: 58px;
+}
+.headerContent nav a {
+    text-decoration: none;
+    color: #72727E;
+    line-height: 25.2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.headerContent button {
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    color: #446DF6;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: bold;
+    padding: 14px 26px;
+    cursor: pointer;
+}
+/* main */
+
+.main {
+    position: relative;
+}
+
+.mainContent {
+    display: flex;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    position: relative;
+    margin-bottom: 19px;
+
+}
+.mainTxt {
+    color: #141B41;
+    margin-top: 147px;
+    font-size: 40px;
+    line-height: 50px;
+    width: 620px;
+}
+.hero img {
+    position: absolute;
+    top: 264px;
+    left: 319px;
+}
+.mainSubtxt {
+    font-size: 24px;
+    line-height: 33.6px;
+    width: 524px;
+    margin-bottom: 29px;
+}
+.mainbtn {
+    background-color: #446DF6;
+    color: #fff;
+    padding: 18px 51px;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    line-height: 25.2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mainRight img {
+    width: 940px;
+    height: 700px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 100%;
+    object-fit: contain;
+}
+/* INSTRUCTION */
+.instruction {
+    margin-top: 70px;
+}
+.instructionContent {
+    display: flex;
+    align-items: center;
+}
+.instructionLeft img {
+    margin-right: 105px;
+}
+.instructionRight  h2 {
+    color: #141B41;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: bold;
+    margin-bottom: 52px;
+}
+.instructionItem {
+   display: flex;
+   align-items: center;
+   column-gap: 42px;
+   margin-bottom: 60px;
+}
+.instructionItem:last-of-type {
+    margin-bottom: 0;
+}
+.instructionTxt {
+    font-size: 24px;
+    color: #141B41;
+    line-height: 32.4px;
+    margin-bottom: 8px;
+}
+.instructionSubTxt {
+    line-height: 24.3px;
+}
+/* INFORMATION */
+.information {
+    margin-top: 142px;
+    margin-bottom: 112px;
+}
+.informationText{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.infoTxt {
+    font-size: 32px;
+    line-height: 40px;
+    color: #141B41;
+    margin-bottom: 17px;
+}
+.infoSubtxt {
+    line-height: 25.2px;
+}
+
+.informationContent {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+.informationInner {
+    width: 210px;
+    height: 200px;
+    text-align: center;
+}
+.informationInner img {
+    margin-bottom: 36px;
+}
+.infoInnerTxt {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22.4px;
+}
+.infbtn {
+    background-color: #446DF6;
+    color: #fff;
+    padding: 18px 51px;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    line-height: 25.2px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 470px;
+}
+/* DOWNLOAD  */
+.download {
+    margin-bottom: 140px;
+}
+.downloadContent {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #7896F8;
+    width: 1170px;
+    border-radius: 20px;
+    opacity: 85%;
+}
+.downloadTxt {
+    font-size: 40px;
+    line-height: 46px;
+    color: #F7F8FD;
+    margin-top: 52px;
+    margin-left: 70px;
+    width: 365px;
+    margin-bottom: 17px;
+    
+}
+.downloadSubTxt {
+    line-height: 25.2px;
+    color: #E9ECF5;
+    margin-bottom: 45px;
+    width: 355px;
+    margin-left: 70px;
+}
+.downloadIcons {
+    display: flex;
+    align-items: center;
+    column-gap: 20.5px;
+    margin-left: 70px;
+}
+.double{
+    height: 100%;
+    margin-left: 164px;
+}
+/* review */
+.review {
+    margin-bottom: 140px;
+}
+.reviewContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviewTxt {
+    font-size: 40px;
+    line-height: 56px;
+    color: #141B41;
+    margin-bottom: 17px;
+}
+.reviewSubtxt {
+    width: 710px;
+    line-height: 25.2px;
+}
+.reviewUser {
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+}
+.reviewUser img {
+    margin-right: 30px;
+}
+.userName {
+    font-size: 24px;
+    line-height: 33.6px;
+    color: #141B41;
+    font-weight: bold;
+}
+.footer {
+    background-color: #141B41;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+}
+.footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 39px; 
+}
+.footerContent nav {
+    display: flex;
+    align-items: center;
+    column-gap: 58px;
+}
+.footerContent nav a {
+    text-decoration: none;
+    color: #E9ECF5;
+    line-height: 25.2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footerContent button {
+    border: 0;
+    outline: 0;
+    border: 1px solid #72727E;
+    font-size: 16px;
+    color: #E9ECF5;
+    line-height: 22.4px;
+    padding: 14px 26px;
+    background-color: transparent;
+    border-radius: 6px;
+}
